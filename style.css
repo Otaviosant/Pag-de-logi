@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(133, 21, 21))
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: .35s;
+    cursor: pointer;
+    background-image: linear-gradient(to top, black, rgb(133, 22, 22))
+
+}
+.titulo{
+    position: relative;
+    text-shadow: 0 0 8px rgb(0, 0, 0);
+    border: solid 4px black;
+    width: 500px;
+    height: 790px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.animated-button {
+    display: inline-block;
+    padding: 16px 40px;
+    font-size: 16px;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.10s ease-in-out;
+    margin-left: 240px;
+    background-image: linear-gradient(to left, black, rgb(131, 5, 5));
+  }
+
+  .animated-button:hover {
+    color: #ffffff;
+    background-image: linear-gradient(to left, rgb(131, 5, 5), black);
+}
+.animated-button:hover {
+    color: #ffffff;
+    background-color: #3498db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  }
+  .nome{
+    margin-top: 20px;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+
+  }
+  .sobren{
+    margin-top: 40px;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+
+  }
+  .senha{
+    margin-top: 50px;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+
+  }
+  .sexo{
+    margin-top: 55px;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+
+  }
+  .avançar{
+    margin-top: 60px;
+  }
